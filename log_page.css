@@ -1,0 +1,62 @@
+* {
+  margin: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  width: auto;
+  font-family: "Zen Dots", cursive;
+}
+body {
+  text-align: center;
+  background-image: url(./mountains-g2827b4aff_1920.png);
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+form {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+  border-radius: 65px;
+  box-shadow: rgba(6, 45, 93, 0.4) -5px 5px, rgba(19, 55, 147, 0.3) -10px 10px,
+    rgba(44, 53, 175, 0.2) -15px 15px, rgba(78, 46, 240, 0.1) -20px 20px,
+    rgba(240, 46, 170, 0.05) -25px 25px;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  width: 110px;
+}
+#button {
+  border-radius: 10px;
+  background-color: lightcoral;
+  border-color: rgb(100, 105, 237);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin: 25px;
+  font-size: medium;
+}
+#button:hover {
+  opacity: 0.7;
+  background-color: crimson;
+  cursor: pointer;
+  color: rgba(0, 38, 255, 0.661);
+}
+#button {
+  width: auto;
+}
+input {
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: rgba(0, 114, 228, 0.383);
+}
+::placeholder {
+  color: rgb(9, 88, 95);
+}
